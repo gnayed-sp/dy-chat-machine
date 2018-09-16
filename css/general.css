@@ -1,0 +1,87 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: rgba(0, 0, 0, 0.1);
+	font-family: 'Roboto', sans-serif;
+}
+
+#div_main {
+	background-color: yellow;
+	margin: auto;
+	height: 100%;
+	width: 90%;
+}
+
+#div_messages {
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+#div_message_input {
+	position: fixed;
+	bottom: 0px;	
+	padding: 5px;
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 100%;
+}
+
+#tf_message {
+	padding: 10px 10px;
+	border-radius: 20px;
+	border: 0;
+	width: 100%;
+}
+
+#btn_send_message {
+	padding: 10px 10px;
+	border-radius: 20px;
+	border: 0;
+	background-color: #08aae6;
+	color: white;
+	margin: 0px 5px;
+	width: 55px;
+	text-align: center;
+}
+
+#btn_send_message:active {
+	background-color: #6bcbef;
+}
+
+.user_align {
+
+}
+
+.user {
+	display: block;
+	background-color: #dcf8c6;
+	position: relative;
+	left: 5%;
+}
+
+.other {
+	display: block;
+	background-color: white;
+	position: relative;
+	left: -5%;
+}
+
+.message_box {
+	box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.13);
+	font-size: 14px;
+	line-height: 18px;
+	padding: 5px 10px;
+	border-radius: 8px;
+	margin: 10px auto;
+	width: 75%;	
+	word-wrap: break-word;
+}
+
+.clear {
+	clear: both;
+}
+
+.message_box username {
+	display: block;
+	margin: 0px;
+	font-weight: 600;
+}
